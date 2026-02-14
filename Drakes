@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha dos Drake | O Topo é Seu</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header {
+            padding: 50px 20px;
+            background: linear-gradient(180deg, #007bff33 0%, #0a0a0a 100%);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #00d4ff;
+            text-shadow: 0 0 10px #00d4ff;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #151515;
+            border: 1px solid #333;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .price-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #222;
+        }
+
+        .price-item:last-child { border: none; }
+
+        .btn-buy {
+            background: #00d4ff;
+            color: #000;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-buy:hover {
+            background: #fff;
+            box-shadow: 0 0 15px #00d4ff;
+        }
+
+        .tag-hot {
+            background: #ff4500;
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 5px;
+        }
+
+        .section-title {
+            color: #00d4ff;
+            margin-top: 40px;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            color: #555;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>LOJINHA DOS DRAKE</h1>
+        <p class="subtitle">🚀 Turbine seu perfil com quem entende do jogo.</p>
+    </div>
+
+    <div class="container">
+        
+        <div class="section-title">📊 Seguidores Reais</div>
+        <div class="card">
+            <div class="price-item">
+                <span>100 Seguidores</span>
+                <strong>R$ 1,50</strong>
+                <a href="https://chat.whatsapp.com/I968yRXDVTL9lB76rL9fiv?mode=gi_t" class="btn-buy">Pedir</a>
+            </div>
+            <div class="price-item">
+                <span>200 Seguidores</span>
+                <strong>R$ 2,50</strong>
+                <a href="https://chat.whatsapp.com/I968yRXDVTL9lB76rL9fiv?mode=gi_t" class="btn-buy">Pedir</a>
+            </div>
+            <div class="price-item">
+                <span>500 Seguidores</span>
+                <strong>R$ 5,00</strong>
+                <a href="https://chat.whatsapp.com/I968yRXDVTL9lB76rL9fiv?mode=gi_t" class="btn-buy">Pedir</a>
+            </div>
+            <div class="price-item">
+                <span>1.000 Seguidores <span class="tag-hot">MAIS VENDIDO 🔥</span></span>
+                <strong>R$ 9,00</strong>
+                <a href="https://chat.whatsapp.com/I968yRXDVTL9lB76rL9fiv?mode=gi_t" class="btn-buy">Pedir</a>
+            </div>
+            <div class="price-item">
+                <span>5.000 Seguidores <span class="tag-hot">VIP 🏆</span></span>
+                <strong>R$ 35,00</strong>
+                <a href="https://chat.whatsapp.com/I968yRXDVTL9lB76rL9fiv?mode=gi_t" class="btn-buy">Pedir</a>
+            </div>
+        </div>
+
+        <div class="section-title">📱 Números Virtuais</div>
+        <div class="card">
+            <div class="price-item">
+                <span>🇫🇮 Finlândia</span>
+                <strong>R$ 4,00</strong>
+                <a href="https://chat.whatsapp.com/I968yRXDVTL9lB76rL9fiv?mode=gi_t" class="btn-buy">Comprar</a>
+            </div>
+            <div class="price-item">
+                <span>🇺🇸 Estados Unidos</span>
+                <strong>R$ 6,50</strong>
+                <a href="https://chat.whatsapp.com/I968yRXDVTL9lB76rL9fiv?mode=gi_t" class="btn-buy">Comprar</a>
+            </div>
+            <div class="price-item">
+                <span>🇧🇷 Brasil (Premium)</span>
+                <strong>R$ 14,00</strong>
+                <a href="https://chat.whatsapp.com/I968yRXDVTL9lB76rL9fiv?mode=gi_t" class="btn-buy">Comprar</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Lojinha dos Drake - Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
